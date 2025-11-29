@@ -18,3 +18,54 @@ body{
     padding: 1rem;
     text-align: center;
 }
+.subtitle{
+    opacity: 10%;
+}
+
+.content {
+    display: flex;/*coloca las tarjetas una al lado de la otra*/
+    gap:3rem;/*separar las tarjetas*/
+    flex-wrap:wrap; /*Permite que las tarjetas bajen sino caben*/
+    justify-content: center;
+    padding: 2rem;
+    }
+
+
+.card{
+    background: #17c7aa;
+    padding: 1.25rem;
+    border-radius: 22px;
+    box-shadow: 0.6 px 18px rgba(203,248,185,0.914);
+    width: 300px;
+}
+    
+    
+.card h2{
+    margin-bottom:0.25rem;
+    color: beige;
+    }
+
+.card p{
+    margin-bottom: 1rem;
+    color: #13121a;
+    }
+
+.btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: aqua;
+    border-radius: 8px;
+    color: #2b0574;
+}
+
+.card a{
+    justify-content: center;
+    display: flex;
+}
+
+.site-footer{
+    text-align: center;
+    padding: 1rem;
+    color: aliceblue;
+
+}
